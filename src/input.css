@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +14,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root{
+    --text: 9,89%,65%;
+    --bg:  9,47%,97%;
+    --secondary_bg:  7,49%,93%;
+    --accent: 29,82%,50%;
 }
 
 body{
