@@ -28,14 +28,40 @@ body{
 }
 
 .menu::after{
-    background: url('./vectors/arrow_right.svg');
+    background: url('../vectors/arrow_right.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .menu::before{
-    background: url('./vectors/menu_icon.svg');
+    background: url("../vectors/menu_icon.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+}
+
+.hero_illustration{
+    background: url("../vectors/heroIllustration.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.flavors{
+    background: url("../Images/flavours.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.oldguys{
+    background: url("../Images/oldguys.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.party{
+    background: url("../Images/party.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
