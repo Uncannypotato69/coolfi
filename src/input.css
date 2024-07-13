@@ -28,13 +28,13 @@ body{
 }
 
 .menu::after{
-    background: url('/vectors/arrow_right.svg');
+    background: url('./vectors/arrow_right.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .menu::before{
-    background: url('/vectors/menu_icon.svg');
+    background: url('./vectors/menu_icon.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
