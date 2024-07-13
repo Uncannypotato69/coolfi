@@ -47,21 +47,4 @@ body{
     background-size: contain;
 }
 
-.flavors{
-    background: url("../Images/flavours.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.oldguys{
-    background: url("../Images/oldguys.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-.party{
-    background: url("../Images/party.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+
