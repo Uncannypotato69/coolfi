@@ -992,6 +992,20 @@ body{
   overflow-x: hidden;
 }
 
+.menu::after{
+  background: url('/vectors/arrow_right.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.menu::before{
+  background: url('/vectors/menu_icon.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
 .\*\:relative > *{
   position: relative;
 }
@@ -1066,11 +1080,6 @@ body{
 .before\:bg-text::before{
   content: var(--tw-content);
   background-color: hsla(var(--text));
-}
-
-.before\:bg-\[url\(\'\/vectors\/menu_icon\.svg\'\)\]::before{
-  content: var(--tw-content);
-  background-image: url('/vectors/menu_icon.svg');
 }
 
 .before\:bg-contain::before{
@@ -1166,11 +1175,6 @@ body{
 .after\:w-full::after{
   content: var(--tw-content);
   width: 100%;
-}
-
-.after\:bg-\[url\(\'\/vectors\/arrow_right\.svg\'\)\]::after{
-  content: var(--tw-content);
-  background-image: url('/vectors/arrow_right.svg');
 }
 
 .after\:bg-contain::after{
